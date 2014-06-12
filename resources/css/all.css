@@ -1,0 +1,190 @@
+.gx-tree-radio {
+    background-image: url('http://cdn.sencha.com/ext/gpl/4.2.1/resources/ext-theme-neptune/images/form/radio.png');
+}
+.x-btn .gxp-icon-getfeatureinfo, .x-menu-item .gxp-icon-getfeatureinfo, img.gxp-icon-getfeatureinfo {
+    background-image: url(../img/silk/information.png);
+}
+.x-btn .gxp-icon-removelayers, .x-menu-item .gxp-icon-removelayers, img.gxp-icon-removelayers {
+    background-image: url(../img/silk/delete.png);
+}
+.x-btn .gxp-icon-zoom-to, .x-menu-item .gxp-icon-zoom-to, img.gxp-icon-zoom-to {
+    background-image: url(../img/silk/magnifier.png);
+}
+.x-btn .gxp-icon-zoom, img.gxp-icon-zoom {
+    background-image: url(../img/silk/magnifier.png);
+}
+.x-btn .gxp-icon-zoom-in, img.gxp-icon-zoom-in {
+    background-image: url(../img/silk/magnifier_zoom_in.png);
+}
+.x-btn .gxp-icon-zoom-out, img.gxp-icon-zoom-out {
+    background-image: url(../img/silk/magnifier_zoom_out.png);
+}
+.x-btn .gxp-icon-pan, img.gxp-icon-pan {
+    background-image: url(../img/geosilk/pan.png);
+}
+.x-btn .gxp-icon-zoom-previous, img.gxp-icon-zoom-previous {
+    background-image: url(../img/silk/arrow_left.png);
+}
+.x-btn .gxp-icon-zoom-next, img.gxp-icon-zoom-next {
+    background-image: url(../img/silk/arrow_right.png);
+}
+.x-btn .gxp-icon-zoomtoextent, img.gxp-icon-zoomtoextent {
+    background-image: url(../img/silk/arrow_inout.png);
+}
+.gx-zoomslider {
+    top: 90px !important;
+    left: 21px !important;
+}
+.olControlPanPanel div {
+    background-image:url(http://cdn.sencha.com/ext/gpl/4.2.1/resources/ext-theme-neptune/images/tools/tool-sprites-dark.png);
+    height:16px;
+    width:16px;
+    /* workaround for button height in IE */
+    font-size:0px;
+}
+.olControlPanPanel .olControlPanNorthItemInactive {
+    background-position:16px -64px;
+    left:16px
+}
+.olControlPanPanel .olControlPanEastItemInactive {
+    background-position:16px -112px;
+    left: 30px;
+    top: 16px;
+}
+.olControlPanPanel .olControlPanSouthItemInactive {
+    background-position:16px -80px;
+    left: 16px;
+    top: 32px;
+}
+.olControlPanPanel .olControlPanWestItemInactive {
+    background-position:16px -128px;
+    left: 2px;
+    top: 16px;
+}
+.olControlZoomPanel {
+    left:21px;
+}
+.olControlZoomPanel div {
+    background-image:url(http://cdn.sencha.com/ext/gpl/4.2.1/resources/ext-theme-neptune/images/tools/tool-sprites-dark.png);
+    height:16px;
+    width:16px;
+    font-size:0px;
+}
+.olControlZoomPanel .olControlZoomInItemInactive {
+    background-position:16px -256px;
+}
+.olControlZoomPanel .olControlZoomToMaxExtentItemInactive {
+    display: none;
+}
+.olControlZoomPanel .olControlZoomOutItemInactive {
+    background-position:16px -272px;
+    top: 123px;
+}
+div.map-overlay {
+    z-index: 1000;
+    position: absolute;
+    left: auto !important;
+    top: auto !important;
+    right: 10px !important;
+    bottom: 10px !important;
+}
+div.map-overlay div.overlay-element {
+    display:inline;
+    float: left;
+    margin: 5px;
+}
+.overlay-scaleline {
+    bottom: 0px;
+    left: 0px;
+    margin-top: 0px;
+}
+.x-btn .gxp-icon-measure-length, .x-menu-item .gxp-icon-measure-length, img.gxp-icon-measure-length {
+    background-image: url(../img/geosilk/ruler.png) !important;
+}
+.x-btn .gxp-icon-measure-area, .x-menu-item .gxp-icon-measure-area, img.gxp-icon-measure-area {
+   background-image: url(../img/geosilk/ruler_square.png) !important;
+}
+.x-action-col, .gxp-icon-addlayers {
+    background-image: url(../img/silk/add.png);
+    width: 16px;
+    height: 16px;
+}
+.x-btn .gxp-icon-addlayers, .x-menu-item .gxp-icon-addlayers, img.gxp-icon-addlayers {
+    background-image: url(../img/silk/add.png);
+}
+.x-btn .gxp-icon-addserver {
+    background-image: url(../img/silk/server_add.png);
+}
+.x-btn .gxp-icon-find, .x-menu-item .gxp-icon-find {
+    background-image: url(../img/silk/find.png);
+}
+.x-btn .add {
+    background-image: url(../img/silk/add.png);
+}
+.x-btn .delete {
+    background-image: url(../img/silk/delete.png);
+}
+.x-btn .duplicate {
+    background-image: url(../img/silk/arrow_divide.png);
+}
+.x-btn .save {
+    background-image: url(../img/accept.png);
+}
+.x-btn .cancel {
+    background-image: url(../img/decline.png);
+}
+.x-btn .edit {
+    background-image: url(../img/pencil.png);
+}
+.x-btn .process, .x-menu-item .process {
+    background-image: url(../img/silk/cog.png);
+}
+.gxp-filterbuilder .x-toolbar {
+    background: transparent;
+    border: none !important;
+}
+.x-btn .gxp-icon-layerproperties, .x-menu-item .gxp-icon-layerproperties, img.gxp-icon-layerproperties {
+    background-image: url(../img/silk/wrench.png);
+}
+.gxp-crumb .x-tab {
+    padding-right: 19px;
+}
+.gxp-crumb-separator {
+    background-repeat: no-repeat;
+    display: block;
+    width: 12px;
+    height: 11px;
+    position: absolute;
+    top: 3px;
+    right: 1px;
+    z-index: 2;
+    font-size: 15px !important;
+}
+.x-tab-active .gxp-crumb-separator {
+    display: none;
+}
+.gxp-crumb .x-tab {
+    border: none;
+    box-shadow: none;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-image: none;
+    background-color: transparent;
+}
+.x-btn .gxp-icon-print, .x-menu-item .gxp-icon-print, img.gxp-icon-print {
+    background-image: url(../img/silk/printer.png);
+}
+.x-btn .gxp-icon-filebrowse, .x-menu-item .gxp-icon-filebrowse {
+    background-image: url(../img/silk/folder.png);
+}
+.x-btn .gxp-icon-palette, .x-menu-item .gxp-icon-palette, img.gxp-icon-palette {
+   background-image: url(../img/silk/palette.png);
+}
+.x-btn .gxp-icon-addfeature, .x-menu-item .gxp-icon-addfeature {
+    background-image: url(../img/silk/pencil_add.png);
+}
+.x-btn .gxp-icon-editfeature, .x-menu-item .gxp-icon-editfeature {
+    background-image: url(../img/silk/map_edit.png);
+}
